@@ -1,2 +1,43 @@
 # TailwindCSS-init
-How to Tailwind
+How to Tailwind?
+
+# Tailwind: PostCSS with Vite
+## [In the Terminal]
+npm init -y
+npm install -D tailwindcss postcss autoprefixer vite
+npx tailwindcss init -p 
+
+## [In the package.json]
+"scripts": {
+    <b>"start": "vite"</b>
+  },
+
+## [In the style.css]
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+## [In the Tailwind.config.js]
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  **content: ["*"],**    ///////////////////////////
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+## [In the Terminal]
+npm run start
+
+### ****To Config
+[In the Terminal]
+npx tailwindcss init configDefault --full      	// npx tailwindcss init [NAME] --full
+
+### ****To Production 
+[In the package.json]
+"scripts": {
+    "start": "vite",
+    **"build": "vite build"**
+  },
+
