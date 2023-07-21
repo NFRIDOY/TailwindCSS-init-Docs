@@ -1,5 +1,7 @@
 # TailwindCSS-init: How to Tailwind?
 # Tailwind: PostCSS with Vite
+## 0.0 Must ADD .gitignore 
+node
 ## 1.0 [In the Terminal]
 ~~~
 npm init -y
