@@ -37,7 +37,7 @@ module.exports = { <br>
   plugins: [], <br>
 } <br>
 
-....Or Copy The Full Code in the Tailwind.config.js
+....Or Copy and Replace The Full Code in the Tailwind.config.js
 ~~~
 /** @type {import('tailwindcss').Config} */
 module.exports = {
