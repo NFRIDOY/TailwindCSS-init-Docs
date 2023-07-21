@@ -20,7 +20,7 @@ npx tailwindcss init -p <br>
 ## [In the Tailwind.config.js]
 /** @type {import('tailwindcss').Config} */  <br>
 module.exports = { <br>
-  **content: ["\*"],**   &emsp;&emsp;&emsp; /* EDIT THIS ONLY */ <br>
+  **content: ["\*"],**   &emsp;&emsp;&emsp; /\* EDIT THIS ONLY */ <br>
   theme: {  <br>
     extend: {}, <br>
   }, <br>
