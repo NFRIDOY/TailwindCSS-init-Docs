@@ -5,7 +5,11 @@ How to Tailwind?
 ## [In the Terminal]
 ~~~
 npm init -y
+~~~
+~~~
 npm install -D tailwindcss postcss autoprefixer vite
+~~~
+~~~
 npx tailwindcss init -p
 ~~~
 
