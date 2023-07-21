@@ -3,24 +3,30 @@ How to Tailwind?
 
 # Tailwind: PostCSS with Vite
 ## [In the Terminal]
-npm init -y <br>
-npm install -D tailwindcss postcss autoprefixer vite <br>
-npx tailwindcss init -p <br>
+~~~
+npm init -y
+npm install -D tailwindcss postcss autoprefixer vite
+npx tailwindcss init -p
+~~~
 
 ## [In the package.json]
-"scripts": { <br>
-    <b>"start": "vite"</b> <br>
-  }, <br>
+~~~
+"scripts": { 
+    <b>"start": "vite"
+  },
+~~~
 
 ## [In the style.css]
-@tailwind base; <br>
-@tailwind components; <br>
-@tailwind utilities; <br>
+~~~
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+~~~
 
 ## [In the Tailwind.config.js]
 /** @type {import('tailwindcss').Config} */  <br>
 module.exports = { <br>
-  **content: ["\*"],**   &emsp;&emsp;&emsp; /\* EDIT THIS ONLY */ <br>
+  content: ["\*"],   &emsp;&emsp;&emsp; /\* EDIT THIS ONLY */ <br>
   theme: {  <br>
     extend: {}, <br>
   }, <br>
@@ -35,7 +41,9 @@ ADD <br>
 
 
 ## [In the Terminal] <br>
-npm run start <br>
+~~~
+npm run start 
+~~~
 
 ### ****To Config
 [In the Terminal] <br>
