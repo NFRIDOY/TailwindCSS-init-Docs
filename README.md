@@ -27,6 +27,13 @@ module.exports = { <br>
   plugins: [], <br>
 } <br>
 
+## [In the index.html]
+ADD <br>
+~~~
+<link rel="stylesheet" href="style.css">
+~~~
+
+
 ## [In the Terminal] <br>
 npm run start <br>
 
