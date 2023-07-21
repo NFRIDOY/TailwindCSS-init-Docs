@@ -13,7 +13,7 @@ npx tailwindcss init -p
 
 ## 2.0 [In the package.json]
 ~~~
-"scripts": { 
+"scripts": {
     "start": "vite"
   },
 ~~~
@@ -57,7 +57,7 @@ ADD into the <head> tag of index.html
 
 ## 6.0 [In the Terminal] <br>
 ~~~
-npm run start 
+npm run start
 ~~~
 
 # ****To Config The Tailwind CSS 
@@ -67,7 +67,7 @@ npx tailwindcss init configDefault --full
 ~~~
 ...Or Set [NAME] For as anything you want.
 ~~~
-npx tailwindcss init [NAME] --full <br>
+npx tailwindcss init [NAME] --full
 ~~~
 
 # ****To Production 
