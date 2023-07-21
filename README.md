@@ -1,6 +1,4 @@
-# TailwindCSS-init
-How to Tailwind?
-
+# TailwindCSS-init: How to Tailwind?
 # Tailwind: PostCSS with Vite
 ## [In the Terminal]
 ~~~
