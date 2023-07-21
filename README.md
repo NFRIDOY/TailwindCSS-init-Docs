@@ -1,6 +1,6 @@
 # TailwindCSS-init: How to Tailwind?
 # Tailwind: PostCSS with Vite
-## [In the Terminal]
+## 1.0 [In the Terminal]
 ~~~
 npm init -y
 ~~~
@@ -11,21 +11,21 @@ npm install -D tailwindcss postcss autoprefixer vite
 npx tailwindcss init -p
 ~~~
 
-## [In the package.json]
+## 2.0 [In the package.json]
 ~~~
 "scripts": { 
     "start": "vite"
   },
 ~~~
 
-## [In the style.css]
+## 3.0 [In the style.css]
 ~~~
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 ~~~
 
-## [In the Tailwind.config.js]
+## 4.0 [In the Tailwind.config.js]
 /** @type {import('tailwindcss').Config} */  <br>
 module.exports = { <br>
   content: ["\*"],   &emsp;&emsp;&emsp; /\* Add "\*" THIS ONLY */ <br>
@@ -48,14 +48,14 @@ module.exports = {
 ~~~
 
 
-## [In the index.html]
+## 5.0 [In the index.html]
 ADD into the <head> tag of index.html
 ~~~
 <link rel="stylesheet" href="style.css">
 ~~~
 
 
-## [In the Terminal] <br>
+## 6.0 [In the Terminal] <br>
 ~~~
 npm run start 
 ~~~
