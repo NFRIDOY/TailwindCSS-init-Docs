@@ -51,7 +51,7 @@ module.exports = {
 
 
 ## [In the index.html]
-ADD <br>
+ADD into the <head> tag of index.html
 ~~~
 <link rel="stylesheet" href="style.css">
 ~~~
@@ -72,7 +72,7 @@ npx tailwindcss init configDefault --full
 npx tailwindcss init [NAME] --full <br>
 ~~~
 
-## ****To Production 
+# ****To Production 
 [In the package.json] <br>
 "scripts": { <br>
     "start": "vite", <br>
