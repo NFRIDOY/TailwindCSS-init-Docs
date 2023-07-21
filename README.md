@@ -37,6 +37,19 @@ module.exports = { <br>
   plugins: [], <br>
 } <br>
 
+....Or Copy The Full Code in the Tailwind.config.js
+~~~
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["*"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+~~~
+
+
 ## [In the index.html]
 ADD <br>
 ~~~
