@@ -14,7 +14,7 @@ npx tailwindcss init -p
 ## [In the package.json]
 ~~~
 "scripts": { 
-    <b>"start": "vite"
+    "start": "vite"
   },
 ~~~
 
